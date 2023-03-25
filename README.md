@@ -22,7 +22,7 @@ pod 'CocoaTestVersion'
 
 ## Author
 
-26388491, noimpactapplications@gmail.com
+KWIKS CTO, charlie@kwiks.com
 
 ## License
 
