@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaTestVersion'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'My very short and to the point summary of how this will work.'
 
 # This description is used to generate tags and improve search results.
