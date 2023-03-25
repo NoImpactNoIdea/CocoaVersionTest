@@ -1,0 +1,26 @@
+{
+  "name": "CocoaTestVersion",
+  "version": "0.1.0",
+  "summary": "My very short and to the point summary of how this will work.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.google.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KWIKS CTO": "charlie@kwiks.com"
+  },
+  "source": {
+    "git": "https://github.com/26388491/CocoaTestVersion.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "source_files": "CocoaTestVersion/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
+}

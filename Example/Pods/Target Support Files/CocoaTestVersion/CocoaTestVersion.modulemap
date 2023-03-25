@@ -1,0 +1,6 @@
+framework module CocoaTestVersion {
+  umbrella header "CocoaTestVersion-umbrella.h"
+
+  export *
+  module * { export * }
+}
