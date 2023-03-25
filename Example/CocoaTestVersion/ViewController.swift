@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         CocoaTestVersion().printMyName()
         let image = CocoaTestVersion().fetchImage()
         print("Image: \(image)")
+        
+        let imageTwo = CocoaTestVersion().fetchSoundImage()
+        print("Image two: \(imageTwo)")
     }
 
     override func didReceiveMemoryWarning() {

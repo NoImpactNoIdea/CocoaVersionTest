@@ -29,10 +29,13 @@ public class CocoaTestVersion {
     }
     
     public func fetchImage() -> UIImage {
-        
         let image = UIImage.init(fromPodAssetName: "phone_icon")
         return image ?? UIImage()
-        
+    }
+    
+    public func fetchSoundImage() -> UIImage {
+        let image = UIImage.init(fromPodAssetName: "sound_broke")
+        return image ?? UIImage()
     }
 }
 
@@ -44,19 +47,3 @@ extension UIImage {
     }
 }
 
-//extension UIImage {
-//    convenience init?(podAssetName: String) {
-//        let podBundle = Bundle(for: CocoaTestVersion.self)
-//
-//    /// A given class within your Pod framework
-//    guard let url = podBundle.url(forResource: "CocoaTestVersion",
-//                                  withExtension: "bundle") else {
-//        return nil
-//
-//    }
-//
-//    self.init(named: podAssetName,
-//              in: Bundle(url: url),
-//              compatibleWith: nil)
-//    }
-// }
