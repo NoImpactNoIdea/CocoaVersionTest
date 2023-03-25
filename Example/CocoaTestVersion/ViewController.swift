@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         CocoaTestVersion().printMyName()
+        let image = CocoaTestVersion().fetchImage()
+        print("Image: \(image)")
     }
 
     override func didReceiveMemoryWarning() {

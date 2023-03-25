@@ -8,14 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaTestVersion'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'My very short and to the point summary of how this will work.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
 'Now I need a long description to fuill in some of the other re that cocoa says we need althogh I can see the importance and they want their sdashboard to llook good buttt whacha going to do bro.'
@@ -31,12 +25,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'CocoaTestVersion/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CocoaTestVersion' => ['CocoaTestVersion/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'CocoaTestVersion/**/*.{lproj,storyboard,xcdatamodeld,xib,xcassets,json}'
+  s.frameworks = 'UIKit'
 end

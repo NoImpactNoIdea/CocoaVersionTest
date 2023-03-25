@@ -1,5 +1,5 @@
 PODS:
-  - CocoaTestVersion (0.1.3)
+  - CocoaTestVersion (0.1.5)
 
 DEPENDENCIES:
   - CocoaTestVersion (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CocoaTestVersion: 12a6b97a36754d999ba492201b0a5ea9cff3270f
+  CocoaTestVersion: 5cb4cf63c0866d8177a176eccbe2ee841628c1dd
 
 PODFILE CHECKSUM: 5c1db7d1c145ab4b4f384bf06d57e24cc656f1a8
 
