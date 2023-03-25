@@ -15,4 +15,8 @@ public class CocoaTestVersion {
     public func printMyName() {
         print("Charlie Arcodia")
     }
+    
+    public func printHerName() {
+        print("Charlie Arcodia")
+    }
 }
