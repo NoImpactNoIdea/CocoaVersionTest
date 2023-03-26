@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaTestVersion'
-  s.version          = '0.1.8'
+  s.version          = '0.2.0'
   s.summary          = 'My very short and to the point summary of how this will work.'
 
   s.description      = <<-DESC
