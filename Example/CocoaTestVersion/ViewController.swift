@@ -13,19 +13,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        CocoaTestVersion().printMyName()
-        let image = CocoaTestVersion().fetchImage()
-        print("Image: \(image)")
+       
+        self.view.backgroundColor = .red
         
-        let imageTwo = CocoaTestVersion().fetchSoundImage()
-        print("Image two: \(imageTwo)")
+        self.perform(#selector(self.handlePopup), with: nil, afterDelay: 2.0)
+        
+    }
+    
+    @objc func handlePopup() {
+        let popup = CocoaTestVersion(presentingViewController: self, popupType: .LoginToAccess)
+        popup.engagePopup()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
     }
 }
 

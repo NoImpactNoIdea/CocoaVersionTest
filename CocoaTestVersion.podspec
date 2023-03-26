@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaTestVersion'
-  s.version          = '0.1.6'
+  s.version          = '0.1.8'
   s.summary          = 'My very short and to the point summary of how this will work.'
 
   s.description      = <<-DESC
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'CocoaTestVersion/Classes/**/*'
-  s.resources = 'CocoaTestVersion/**/*.{lproj,storyboard,xcdatamodeld,xib,xcassets,json}'
+  s.resources = 'CocoaTestVersion/**/*.{lproj,storyboard,xcdatamodeld,xib,xcassets,json,ttf,otf}'
   s.frameworks = 'UIKit'
 end
